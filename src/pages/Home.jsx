@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { blogPosts } from '../data/blog'
 
 const CANOPY_URL = "https://app.usecanopy.com/c/tomlinson-and-co"
+const WUFOO_URL = "https://hoinsurance.wufoo.com/forms/m96j1zb0kfqk62/"
 const PHONE = "800-616-1418"
 
 export default function Home() {
@@ -37,7 +38,11 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href={CANOPY_URL} target="_blank" rel="noopener noreferrer"
             className="bg-white text-[#16a34a] font-bold py-4 px-10 rounded-xl text-xl hover:bg-green-50 transition shadow-lg">
-            Get a Quote →
+            ⚡ Instant Quote →
+          </a>
+          <a href={WUFOO_URL} target="_blank" rel="noopener noreferrer"
+            className="bg-[#c8a84b] text-[#1a3a5c] font-bold py-4 px-10 rounded-xl text-xl hover:bg-yellow-400 transition shadow-lg">
+            📋 Detailed Quote Form
           </a>
           <a href={`tel:${PHONE.replace(/-/g,'')}`}
             className="border-2 border-white text-white font-bold py-4 px-10 rounded-xl text-xl hover:bg-white hover:text-[#16a34a] transition">
