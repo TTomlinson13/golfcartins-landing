@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { blogPosts } from '../data/blog'
 
 const CANOPY_URL = "https://app.usecanopy.com/c/tomlinson-and-co"
-const WUFOO_URL = "https://hoinsurance.wufoo.com/forms/m96j1zb0kfqk62/"
+const WUFOO_URL = "https://hoinsurance.wufoo.com/forms/m8thc0r1ep61z2/"
 const PHONE = "800-616-1418"
 
 export default function Home() {
