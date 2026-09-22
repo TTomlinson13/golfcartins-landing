@@ -1,8 +1,10 @@
 {
   "name": "golfcartins-landing",
   "version": "0.1.0",
+  "private": true,
+  "description": "DEAD REPO — superseded by TTomlinson13/golfcartins-com. Do not deploy from here.",
   "scripts": {
-    "build": "echo 'Using pre-built public'",
+    "build": "echo 'This repo is not the source of golfcartins.com. See README.md.' && exit 1",
     "deploy": "bash deploy.sh"
   }
 }
